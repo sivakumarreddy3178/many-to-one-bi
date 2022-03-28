@@ -12,6 +12,7 @@ public class InsertaSim {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		m1();
 		EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory("skr");
 		EntityManager entityManager=entityManagerFactory.createEntityManager();
 		EntityTransaction entityTransaction=entityManager.getTransaction();
@@ -31,6 +32,9 @@ public class InsertaSim {
 		s2.setM(m);
 		
 
+	}
+	static void m1() {
+		System.out.println("we are new ");
 	}
 
 }

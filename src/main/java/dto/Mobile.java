@@ -15,7 +15,7 @@ public class Mobile {
 	private int id;
 	private String name;
 	private double cost;
-	@OneToMany(mappedBy = "si")
+	@OneToMany(mappedBy = "m")
 	List<Sim> li;
 	public int getId() {
 		return id;
